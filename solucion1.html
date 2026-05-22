@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Promedio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="h4 mb-0">Calcular Promedio</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="num1" class="form-label">Número 1</label>
+                            <input type="number" class="form-control" id="num-1" placeholder="Ingrese el primer número">
+                        </div>
+                        <div class="mb-3">
+                            <label for="num2" class="form-label">Número 2</label>
+                            <input type="number" class="form-control" id="num-2"
+                                placeholder="Ingrese el segundo número">
+                        </div>
+                        <div class="mb-3">
+                            <label for="num3" class="form-label">Número 3</label>
+                            <input type="number" class="form-control" id="num-3" placeholder="Ingrese el tercer número">
+                        </div>
+                        <button id="btnCalcular" class="btn btn-success w-100">Calcular Promedio</button>
+                    </div>
+                    <div class="card-footer bg-white">
+                        <div id="containerResultado" class="alert alert-info mb-0 text-center">
+                            <strong>Resultado: </strong> <span id="resultado">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/solucion1.js"></script>
+</body>
+
+</html>

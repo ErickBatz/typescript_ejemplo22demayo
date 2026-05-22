@@ -1,0 +1,15 @@
+{
+    "name": "typescript_ejemplo22mayo",
+    "version": "1.0.0",
+    "description": "Proyecto basico con TypesScript",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --match"
+    },
+    "author":"Erick",
+    "license":"ISC",
+    "dependencies": {
+        "typescript": "^5.8.3"
+    }
+}
